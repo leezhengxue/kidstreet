@@ -2,11 +2,22 @@
   <div style="background-color:black">
     <div class="header">
       <div class="header-container">
-        <img class="header-logo" src="../assets/logo.png" />
+        <div class="image-container">
+          <img class="header-logo" src="../assets/kidstreet-logo.png" />
+        </div>
         <h1 class="header-font">
-          KID STREET DANCE ACEDEMY
-          </h1>
+        KID STREET DANCE ACADEMY
+        </h1>
       </div>
+
+      <div class="concept-design">
+        <div class="left-border-line"></div>
+        <div class="right-border-line">
+          <text class="right-border-text">WE DANCE TO EDUCATE</text>
+          <div class="progress-scroll-bar"></div>
+        </div>
+      </div>
+    
     </div>
     <div class="content">
       <div class="hero-container">
@@ -106,39 +117,77 @@
       </div>
     
       <div class="main-container">
-        <div class="image-container">
+        <div class="image-container long-container"> 
           <h1 class="title-font" >
-            Types Of <br/> Hip-Hop Dance
+            Types Of Hip-Hop Dance
           </h1>
           <img class="images" src="../assets/logo.png" />
         </div>
         <div class="content-container">
-          <h2 class="content-title-font">
+          <h2 class="sub-title-font-small">
             Urban Choreography
           </h2>
-          <text class="content-font">
+          <text class="content-font-small">
             Kpop and Mixture of all dance
           </text>
-          <h2 class="content-title-font">
+          <h2 class="sub-title-font-small">
             Break Dancing
           </h2>
-          <text class="content-font">
+          <text class="content-font-small">
             Toprock, Footwork, Power Moves and Freezes
           </text>
-          <h2 class="content-title-font">
+          <h2 class="sub-title-font-small">
             Locking
           </h2>
-          <text class="content-font">
+          <text class="content-font-small">
             Funky, Happy and Body Movement
           </text>
-          <h2 class="content-title-font">
+          <h2 class="sub-title-font-small">
             Popping
           </h2>
-          <text class="content-font">
+          <text class="content-font-small">
             Robotic, Waving and Body Control
           </text>
         </div>
       </div>
+      
+
+      <div class="main-container">
+        <div class="content-container">
+          <h1 class="title-font" >
+            Why Choose Us?
+          </h1>
+          <h2 class="sub-title-font-small">
+            OUR WORK EXPERIENCE
+          </h2>
+          <text class="content-font-small">
+            Our team has more than 10 years teaching experience.
+          </text>
+          <h2 class="sub-title-font-small">
+            OUR WORK QUALITY
+          </h2>
+          <text class="content-font-small">
+            Our student has successful annually achiece tittles.
+          </text>
+          <h2 class="sub-title-font-small">
+            OUR WORK COMMITMENT
+          </h2>
+          <text class="content-font-small">
+            Our teacher sacrifices personal time to cultivate our student.
+          </text>
+          <h2 class="sub-title-font-small">
+            COST EFFECTIVE
+          </h2>
+          <text class="content-font-small">
+            Robotic, Waving and Body Control
+          </text>
+        </div>
+        <div class="image-container"> 
+          <img class="images" src="../assets/logo.png" />
+        </div>
+      </div>
+
+
       <div style="height:150px;">
       </div>
     
@@ -154,17 +203,52 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.header{
+  position:fixed;
+  width: 100%;
+}
 .header-container{
   display:flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+  padding-left:80px;
+  background-color:rgb(0, 0, 0);
 }
 .header-logo{
-  margin-left: 80px;
-  margin-right: 80px;
+  height: 150px;
+}
+.concept-design{
+  display:none;
+  /* display:flex; */
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 200px 0 200px;
+}
+.left-border-line{
+  height: calc(100vh - 300px);
+  width: 3px;
+  background-color: rgb(255, 255, 255);
+}
+.right-border-line{
+  height: calc(100vh - 300px);
+  width: 3px;
+  background-color: rgb(250, 250, 250);
+}
+.right-border-text{
+  color: rgb(245, 168, 172);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size:20px;
+  writing-mode: vertical-rl;
+  /* text-orientation: mixed; */
+}
+.progress-scroll-bar{
   height: 100px;
-  width:100px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  margin-top: 300px;
 }
 
 .header-font{
@@ -173,6 +257,7 @@ export default {
   font-weight: 100;
   letter-spacing: 5px;
   font-size:20px;
+  padding-left:50px;
 }
 
 .content{
@@ -185,13 +270,13 @@ export default {
 }
 
 .hero-container{
-  height: 100%;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin:5%;
+  margin-top:0 ;
+  padding-top:10%;
 }
 .hero-font{
   color: white;
@@ -203,7 +288,6 @@ export default {
 }
 
 .main-container{
-  height: 100%;
   margin:5%;
   display: flex;
   flex-direction: row;
@@ -231,6 +315,14 @@ export default {
   letter-spacing: 5px;
   font-size: 2rem;
 }
+.sub-title-font-small{
+   color: rgb(245, 168, 172);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  margin:0;
+}
 .content-font{
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -241,11 +333,51 @@ export default {
   width: 45rem;
   text-align: justify;
 }
+.content-font-small {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  line-height: 3rem;
+  font-size:18px;
+  width: 45rem;
+  margin-bottom:30px;
+}
 .image-container{
   display:flex;
   flex-direction: column;
   margin-left:5rem;
   margin-right:5rem;
   align-items: center;
+}
+.long-container{
+  width:400px;
+}
+@media (max-width: 1024px) {
+  .header-font{
+    display:none;
+}
+  .header-container{
+   flex-direction: column;
+   padding: 0;
+ }
+  .hero-container{
+   flex-direction: column;
+ }
+  .content-container{
+  display: block;
+ }
+  .main-container{
+   flex-direction: column;
+ }
+  .title-font{
+   font-size:60px;
+ }
+  .long-container{
+  width:300px;
+}
+  .concept-design{
+  display:none;
+}
 }
 </style>
