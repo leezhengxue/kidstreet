@@ -1,17 +1,26 @@
 <template>
-  <div style="background-color:black">
+  <div style="background-color:#181818">
     <div class="header">
       <div class="header-container">
         <div class="image-container">
           <img class="header-logo" src="../assets/kidstreet-logo.png" />
         </div>
-        <h1 class="header-font">
-          KID STREET DANCE ACADEMY
-        </h1>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#achievement">ACHIEVEMENT</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#partner">PARTNER</a></li>
+            <li><a href="#review">REVIEW</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="concept-design">
-        <div class="left-border-line"></div>
+        <div class="left-border-line">
+          <text class="left-border-text">KID STREET DANCE ACADEMY</text>
+        </div>
         <div class="right-border-line">
           <text class="right-border-text">WE DANCE TO EDUCATE</text>
           <div class="progress-scroll-bar">
@@ -29,18 +38,18 @@
           DANCE <br />
           CLASS 2021 <br />
         </h1>
-        <img class="images_1" src="../assets/logo.png" />
+        <img class="images_1" src="../assets/hero_image.png" />
       </div>
 
       <div class="main-container">
-        <div class="content-container">
-          <h1 class="title-font">
+        <div class="content-container padding-top" id="about-us">
+          <h1 class="title-font" style="margin-bottom:20px;">
             About Us
           </h1>
           <h2 class="sub-title-font">
             Background
           </h2>
-          <text class="content-font">
+          <text class="content-font content-font-width">
             Founded in 2019, KID STREET; A professional dance company that
             focuses on Academy, Performances and Entertainment in dance. KID
             STREET was fouunded by both dancers, Ker Qian and Kah Meng aspiring
@@ -49,7 +58,7 @@
           <h2 class="sub-title-font">
             Business Activity
           </h2>
-          <text class="content-font">
+          <text class="content-font content-font-width">
             KID STREET has bee actively in collaborate with schools and dance
             academy since. We are looking to expand our platform for the year
             2021. We focuses on helping students in their academy by providing
@@ -62,18 +71,16 @@
         </div>
       </div>
 
-      <div class="main-container">
+      <div class="main-container padding-top-bottom">
         <div class="image-container">
-          <div class="image-wrapper">
-            <img class="images_3" src="../assets/what_is_hiphop.jpg" />
-          </div>
+          <img class="images_3" src="../assets/what_is_hiphop.jpg" />
         </div>
         <div class="content-container">
           <h1 class="title-font">What is <br />Hip-Hop?</h1>
           <h2 class="sub-title-font">
             A Brief History
           </h2>
-          <text class="content-font">
+          <text class="content-font content-font-width">
             Hip-hop now is a highly sought-after and dominant style of dance. It
             is among the most common styles of dance for music vidoes, concerts,
             and dance competitions.
@@ -86,7 +93,7 @@
           <h1 class="title-font">Why <br />Dancing?</h1>
           <img class="images_4" src="../assets/why_dance.png" />
         </div>
-        <div class="content-container">
+        <div class="content-container padding-top">
           <h2 class="sub-title-font">
             EDUCATION BENEFITS
           </h2>
@@ -121,7 +128,7 @@
           </h1>
           <img class="images_5" src="../assets/logo.png" />
         </div>
-        <div class="content-container">
+        <div class="content-container padding-top">
           <div class="image-content">
             <div class="circle"><div class="circle-number">01</div></div>
             <div class="content-container">
@@ -171,32 +178,32 @@
       </div>
 
       <div class="main-container">
-        <div class="content-container">
+        <div class="content-container content-container-wrapper">
           <h1 class="title-font">
             Why Choose Us?
           </h1>
           <h2 class="sub-title-font-rm-margin">
             OUR WORK EXPERIENCE
           </h2>
-          <text class="content-font-small">
+          <text class="content-font-small rm-margin-bottom">
             Our team has more than 10 years teaching experience.
           </text>
           <h2 class="sub-title-font-rm-margin">
             OUR WORK QUALITY
           </h2>
-          <text class="content-font-small">
+          <text class="content-font-small rm-margin-bottom">
             Our student has successful annually achiece tittles.
           </text>
           <h2 class="sub-title-font-rm-margin">
             OUR WORK COMMITMENT
           </h2>
-          <text class="content-font-small">
+          <text class="content-font-small rm-margin-bottom">
             Our teacher sacrifices personal time to cultivate our student.
           </text>
           <h2 class="sub-title-font-rm-margin">
             COST EFFECTIVE
           </h2>
-          <text class="content-font-small">
+          <text class="content-font-small rm-margin-bottom">
             Robotic, Waving and Body Control
           </text>
         </div>
@@ -205,13 +212,14 @@
         </div>
       </div>
 
-      <div class="main-container">
+      <div class="main-container" id="achievement">
         <div>
           <h1 class="title-font special-title-font">
-            Our Achievement
+            Our <br />
+            Achievement
           </h1>
         </div>
-        <div class="content-container">
+        <div class="content-container padding-top">
           <div class="image-content image-content-margin">
             <div class="image-container">
               <img class="images_7" src="../assets/achievement_1.jpg" />
@@ -220,33 +228,33 @@
               <h2 class="sub-title-font-rm-margin">
                 JOM MENARI
               </h2>
-              <text class="content-font-small">
+              <text class="content-font">
                 CHAMPION 2019
               </text>
             </div>
           </div>
           <div class="image-content image-content-margin">
             <div class="image-container">
-              <img class="images_7" src="../assets/achievement_2.png" />
+              <img class="images_8" src="../assets/achievement_2.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
                 MY TOWN FESTIVAL
               </h2>
-              <text class="content-font-small">
+              <text class="content-font">
                 CHAMPION 2019
               </text>
             </div>
           </div>
           <div class="image-content image-content-margin">
             <div class="image-container">
-              <img class="images_7" src="../assets/achievement_2.png" />
+              <img class="images_9" src="../assets/achievement_2.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
                 ASTRO BATTLE GROUND
               </h2>
-              <text class="content-font-small">
+              <text class="content-font">
                 CHAMPION 2016
               </text>
             </div>
@@ -254,11 +262,11 @@
         </div>
       </div>
 
-      <div class="main-container">
-        <div class="content-container">
+      <div class="main-container" id="team">
+        <div class="content-container padding-top">
           <div class="image-content">
             <div class="image-container">
-              <img class="images" src="../assets/logo.png" />
+              <img class="images_10" src="../assets/logo.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -271,7 +279,7 @@
           </div>
           <div class="image-content">
             <div class="image-container">
-              <img class="images" src="../assets/logo.png" />
+              <img class="images_11" src="../assets/logo.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -284,7 +292,7 @@
           </div>
           <div class="image-content">
             <div class="image-container">
-              <img class="images" src="../assets/logo.png" />
+              <img class="images_12" src="../assets/logo.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -303,59 +311,161 @@
         </div>
       </div>
 
-      <div class="main-container-column">
-        <div>
-          <h1 class="title-font">
-            Our School Partner
-          </h1>
-        </div>
-        <div class="main-container" style="justify-content: space-between;">
-          <div class="image-content">
-            <div class="image-container rm-image-container-margin">
-              <img class="images" src="../assets/logo.png" />
-              <h2 class="sub-title-font rm-margin" style="color:white">
-                HANZKIDZ
-              </h2>
-            </div>
-            <div class="image-container rm-image-container-margin">
-              <img class="images" src="../assets/logo.png" />
-              <h2 class="sub-title-font rm-margin" style="color:white">
-                HANZKIDZ
-              </h2>
+      <div class="main-container" id="partner">
+        <div class="main-container-column padding-top" style="margin:0">
+          <div>
+            <h1 class="title-font">
+              Our School Partner
+            </h1>
+          </div>
+          <div class="main-container" style="justify-content: space-between;">
+            <div class="image-content">
+              <div class="image-container rm-image-container-margin">
+                <img class="images" src="../assets/logo.png" />
+                <h2 class="sub-title-font rm-margin" style="color:white">
+                  HANZKIDZ
+                </h2>
+              </div>
+              <div class="image-container rm-image-container-margin">
+                <img class="images" src="../assets/logo.png" />
+                <h2 class="sub-title-font rm-margin" style="color:white">
+                  HANZKIDZ
+                </h2>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="main-container">
-        <div class="content-container">
-          <h1 class="title-font special-title-font">
-            Type of Collaborations
+        <div class="main-container-column">
+          <h1 class="title-font special-title-font padding-right-400">
+            Types of Collaborations
           </h1>
-          <h2 class="sub-title-font">
-            Option 1
-          </h2>
-          <text class="content-font">
-            - 20% commision for school.<br />
-            - All student must participare to dance class. <br />
-            - Complimentary performace to all school event. <br />
-            - Train students to achieve competitions tittles.<br />
-          </text>
-          <h2 class="sub-title-font">
-            Option 2
-          </h2>
-          <text class="content-font">
-            - 10% commision for school.<br />
-            - All class activity for student to participate.<br />
-            - Complimentary performace to all school event.<br />
-            - Train students to achieve competitions tittles.<br />
-          </text>
-        </div>
-        <div class="image-container">
-          <img class="images" src="../assets/logo.png" />
+          <div class="main-container main-container-rm-margin">
+            <div class="content-container">
+              <h2 class="sub-title-font">
+                Option 1
+              </h2>
+              <text class="content-font">
+                - 20% commision for school.<br />
+                - All student must participare to dance class. <br />
+                - Complimentary performace to all school event. <br />
+                - Train students to achieve competitions tittles.<br />
+              </text>
+              <h2 class="sub-title-font">
+                Option 2
+              </h2>
+              <text class="content-font">
+                - 10% commision for school.<br />
+                - All class activity for student to participate.<br />
+                - Complimentary performace to all school event.<br />
+                - Train students to achieve competitions tittles.<br />
+              </text>
+            </div>
+            <div class="image-container">
+              <img class="images_13" src="../assets/collaboration.png" />
+            </div>
+          </div>
         </div>
       </div>
 
+      <div class="main-container" id="review">
+        <div class="main-container-column padding-top" style="margin:0">
+          <div>
+            <h1 class="title-font">
+              Parents Review
+            </h1>
+          </div>
+          <div class="main-container" style="justify-content: space-between;">
+            <div class="image-content">
+              <div class="image-container rm-image-container-margin">
+                <img class="images" src="../assets/logo.png" />
+                <h2
+                  class="content-font rm-margin"
+                  style="color:white; text-align:left"
+                >
+                  - KEITH MOK'S PARENTS
+                </h2>
+              </div>
+              <div class="image-container rm-image-container-margin">
+                <img class="images" src="../assets/logo.png" />
+                <h2
+                  class="content-font rm-margin"
+                  style="color:white; text-align:left;"
+                >
+                  - SHEELA LEE'S PARENTS
+                </h2>
+              </div>
+              <div class="image-container rm-image-container-margin">
+                <img class="images" src="../assets/logo.png" />
+                <h2
+                  class="content-font rm-margin"
+                  style="color:white; text-align:left;"
+                >
+                  - XIN LYNN'S PARENTS
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="main-container">
+        <div
+          class="main-container-column padding-top padding-bottom"
+          id="review"
+          style="margin:0;"
+        >
+          <h1 class="title-font special-title-font">
+            Parents Review
+          </h1>
+          <div class="main-container" style="justify-content: space-between;">
+            <div class="image-content">
+              <div
+                class="image-container rm-image-container-margin review-container"
+              >
+                <img class="images" src="../assets/logo.png" />
+                <h2 class="content-font rm-margin" style="color:white">
+                  - KEITH MOK'S PARENTS
+                </h2>
+              </div>
+              <div
+                class="image-container rm-image-container-margin review-container"
+              >
+                <img class="images" src="../assets/logo.png" />
+                <h2 class="content-font rm-margin" style="color:white">
+                  - SHEELA LEE'S PARENTS
+                </h2>
+              </div>
+              <div
+                class="image-container rm-image-container-margin review-container"
+              >
+                <img class="images" src="../assets/logo.png" />
+                <h2 class="content-font rm-margin" style="color:white">
+                  - XIN LYNN'S PARENTS
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="main-container" id="contact-us">
+        <div class="image-container padding-right-50">
+          <img class="images_14" src="../assets/thank_you.png" />
+        </div>
+        <div class="content-container">
+          <h1 class="title-font" style="color:#d848bd">CONTACT US</h1>
+
+          <text class="content-font">
+            Tel: <br />
+            016-3377808 (Kah Meng)<br />
+            016-9647770 (Ker Qian)<br /><br />
+            Email:<br />
+            kidstreet@gmail.com
+          </text>
+        </div>
+      </div>
       <div style="height:150px;"></div>
     </div>
   </div>
@@ -398,67 +508,108 @@ export default {
   align-items: center;
   flex-direction: row;
   padding-left: 80px;
-  background-color: rgb(0, 0, 0);
+  background-color: #131313;
 }
 .header-logo {
-  height: 150px;
+  height: 110px;
+  margin: 5px;
 }
+
+.nav-bar {
+  flex: 1;
+  text-align: right;
+  margin-right: 100px;
+}
+.nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  position: relative;
+}
+.nav-bar ul li a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 .concept-design {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px 200px 0 200px;
+  margin: 50px 150px 0 150px;
 }
 .left-border-line {
-  height: calc(100vh - 300px);
-  width: 3px;
+  height: calc(100vh - 100px);
+  width: 2px;
   background-color: rgb(255, 255, 255);
+  margin-top: 150px;
+}
+.left-border-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 100px;
+  bottom: 250px;
+  font-weight: 100;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  /* text-orientation: mixed; */
 }
 .right-border-line {
-  height: calc(100vh - 300px);
-  width: 3px;
+  height: calc(100vh - 500px);
+  width: 2px;
   background-color: rgb(250, 250, 250);
 }
 .right-border-text {
-  color: rgb(245, 168, 172);
+  color: #f6921e;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 20px;
   writing-mode: vertical-rl;
   /* text-orientation: mixed; */
+  margin-left: 15px;
 }
 
 .progress-scroll-bar {
-  margin-top: 300px;
+  margin-top: 400px;
+  position: absolute;
+  right: 150px;
+  bottom: 350px;
 }
 #circle {
-  height: 70px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background-color: #000000;
   position: fixed;
   display: grid;
   place-items: center;
-  box-shadow: 0 0 30px #ffa9aa;
+  box-shadow: 0 0 30px #d848bd;
 }
 
 #circle-value {
   display: block;
-  height: calc(100% - 15px);
-  width: calc(100% - 15px);
+  height: calc(100% - 5px);
+  width: calc(100% - 5px);
   background-color: #ffffff;
   border-radius: 50%;
   display: grid;
   place-items: center;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+  font-size: 15px;
   color: white;
   background-color: #3a3a3a;
 }
 
 .header-font {
-  color: rgb(245, 168, 172);
+  color: #f6921e;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   letter-spacing: 5px;
@@ -471,6 +622,10 @@ export default {
   height: 100%;
 }
 
+.images_1 {
+  height: 750px;
+  box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+}
 .images_2 {
   height: 250px;
   box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
@@ -481,11 +636,11 @@ export default {
   box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
 }
 .images_4 {
-  height: 400px;
+  height: 370px;
   box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
 }
 .padding-right-50 {
-  padding-right: 80px;
+  padding-right: 50px;
 }
 .images_6 {
   margin-top: 120px;
@@ -496,6 +651,22 @@ export default {
   height: 150px;
   box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
 }
+.images_8 {
+  height: 150px;
+  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
+.images_9 {
+  height: 150px;
+  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
+.images_13 {
+  height: 500px;
+  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
+.images_14 {
+  height: 300px;
+  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
 .hero-container {
   display: flex;
   flex-direction: row;
@@ -503,10 +674,10 @@ export default {
   align-items: center;
   margin: 5%;
   margin-top: 0;
-  padding-top: 10%;
+  padding-top: 140px;
 }
 .hero-font {
-  color: white;
+  color: #d848bd;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   letter-spacing: 5px;
@@ -521,6 +692,19 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.main-container-rm-margin {
+  margin: 0;
+}
+.padding-top-bottom {
+  padding: 70px 0 100px 0;
+}
+.padding-top {
+  padding-top: 150px;
+}
+.padding-top {
+  padding-bottom: 100px;
+}
+
 .main-container-column {
   margin: 5%;
   display: flex;
@@ -534,6 +718,9 @@ export default {
   justify-content: flex-start;
   align-items: flex-start;
 }
+.content-container-wrapper {
+  width: 35rem;
+}
 
 .title-font {
   color: white;
@@ -543,8 +730,12 @@ export default {
   font-size: 5rem;
   text-align: left;
 }
+.padding-right-400 {
+  padding-right: 400px;
+}
+
 .sub-title-font {
-  color: rgb(245, 168, 172);
+  color: #d848bd;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   letter-spacing: 5px;
@@ -554,7 +745,7 @@ export default {
   color: white;
 }
 .sub-title-font-rm-margin {
-  color: rgb(245, 168, 172);
+  color: #d848bd;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   letter-spacing: 5px;
@@ -566,21 +757,22 @@ export default {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  letter-spacing: 5px;
-  line-height: 3rem;
-  font-size: 18px;
-  width: 45rem;
+  letter-spacing: 3px;
+  line-height: 2.5rem;
+  font-size: 20px;
   text-align: justify;
+}
+.content-font-width {
+  width: 600px;
 }
 .content-font-small {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 3rem;
   font-size: 18px;
-  width: 30rem;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .rm-margin-bottom {
   margin: 0;
@@ -590,7 +782,7 @@ export default {
   flex-direction: column;
   margin-left: 2rem;
   margin-right: 2rem;
-  align-items: left;
+  align-items: center;
 }
 /* .image-wrapper::before {
   position: absolute;
@@ -638,7 +830,67 @@ export default {
   line-height: 3rem;
   font-size: 20px;
 }
+.review-container {
+  width: 400px;
+}
+
+@media (max-width: 1440px) {
+  .progress-scroll-bar {
+    margin-top: 200px;
+  }
+  #circle {
+    height: 75px;
+    width: 75px;
+  }
+  .title-font {
+    font-size: 3rem;
+  }
+
+  .content-font {
+    font-size: 18px;
+  }
+  .content-font-width {
+    width: 400px;
+  }
+  .content-font-small {
+    font-size: 15px;
+  }
+  .sub-title-font {
+    font-size: 26px;
+  }
+  .sub-title-font-rm-margin {
+    font-size: 26px;
+  }
+  .content-container-wrapper {
+    width: 28rem;
+  }
+  .images_1 {
+    height: 650px;
+    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+  }
+  .images_3 {
+    height: 350px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_4 {
+    height: 300px;
+    box-shadow: 30px 40px 0 0, 30px 40px 0 2px rgb(148, 148, 148);
+  }
+  .images_13 {
+    height: 350px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .images_6 {
+    margin-top: 120px;
+    height: 350px;
+    box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
+  }
+}
+
 @media (max-width: 1024px) {
+  .nav-bar {
+    display: none;
+  }
   .header-font {
     display: none;
   }
@@ -648,6 +900,7 @@ export default {
   }
   .hero-container {
     flex-direction: column;
+    padding-top: 80px;
   }
   .content-container {
     display: block;
@@ -669,7 +922,12 @@ export default {
     align-items: center;
     width: 300px;
   }
-
+  .content-container-wrapper {
+    width: 18rem;
+  }
+  .content-font-small {
+    margin-bottom: 50px;
+  }
   .special-title-font {
     font-size: 32px;
   }
@@ -679,15 +937,72 @@ export default {
   .rm-image-container-margin {
     margin: 0;
   }
-  .images_3 {
-    height: 200px;
-    box-shadow: 5px 5px 0 0, 5px 5px 0 1px rgb(148, 148, 148);
+  .padding-top {
+    padding-top: 0;
   }
   .circle {
     display: none;
   }
   .image-content-margin {
     margin: 0;
+  }
+  .padding-right-400 {
+    padding-right: 0;
+  }
+  .images {
+    height: 100px;
+    width: 100px;
+  }
+  .images_1 {
+    height: 350px;
+    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+  }
+  .images_2 {
+    height: 160px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    margin-top: 20px;
+  }
+  .images_3 {
+    height: 200px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_4 {
+    height: 170px;
+    box-shadow: 5px 5px 0 0, 5px 5px 0 1px rgb(148, 148, 148);
+  }
+  .padding-right-50 {
+    padding-right: 0px;
+  }
+  .images_6 {
+    margin-top: 0;
+    height: 190px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_7 {
+    margin-bottom: 40px;
+    height: 190px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_8 {
+    margin-bottom: 40px;
+    height: 190px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_9 {
+    margin-bottom: 40px;
+    height: 190px;
+    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+  }
+  .images_13 {
+    height: 220px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .images_14 {
+    height: 170px;
+    box-shadow: 5px 5px 0 0, 5px 5px 0 1px rgb(148, 148, 148);
+  }
+  .review-container {
+    width: auto;
   }
 }
 </style>
