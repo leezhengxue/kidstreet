@@ -3,7 +3,9 @@
     <div class="header">
       <div class="header-container">
         <div class="image-container">
-          <img class="header-logo" src="../assets/kidstreet-logo.png" />
+          <a href="#home"
+            ><img class="header-logo" src="../assets/kidstreet-logo.png"
+          /></a>
         </div>
         <div class="nav-bar">
           <ul>
@@ -32,7 +34,7 @@
       </div>
     </div>
     <div class="content">
-      <div class="hero-container">
+      <div class="hero-container" id="home">
         <h1 class="hero-font">
           HIP - HOP <br />
           DANCE <br />
@@ -43,7 +45,7 @@
 
       <div class="main-container">
         <div class="content-container padding-top" id="about-us">
-          <h1 class="title-font" style="margin-bottom:20px;">
+          <h1 class="title-font" style="margin:20px 0 20px 0;">
             About Us
           </h1>
           <h2 class="sub-title-font">
@@ -122,11 +124,16 @@
       </div>
 
       <div class="main-container">
-        <div class="image-container long-container">
+        <div class="image-container">
           <h1 class="title-font">
-            Types Of Hip-Hop Dance
+            Types Of <br />
+            Hip-Hop Dance
           </h1>
           <img class="images_5" src="../assets/logo.png" />
+
+          <!-- <video class="videos" width="600" controls>
+            <source src="../assets/dance-video.mp4" type="video/mp4" />
+          </video> -->
         </div>
         <div class="content-container padding-top">
           <div class="image-content">
@@ -248,7 +255,7 @@
           </div>
           <div class="image-content image-content-margin">
             <div class="image-container">
-              <img class="images_9" src="../assets/achievement_2.png" />
+              <img class="images_9" src="../assets/achievement_3.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -263,10 +270,10 @@
       </div>
 
       <div class="main-container" id="team">
-        <div class="content-container padding-top">
-          <div class="image-content">
+        <div class="content-container padding-top content-padding-right-50">
+          <div class="image-content image-content-margin">
             <div class="image-container">
-              <img class="images_10" src="../assets/logo.png" />
+              <img class="images_10" src="../assets/teacher-ker-qian.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -277,9 +284,9 @@
               </text>
             </div>
           </div>
-          <div class="image-content">
+          <div class="image-content image-content-margin">
             <div class="image-container">
-              <img class="images_11" src="../assets/logo.png" />
+              <img class="images_11" src="../assets/teacher-xf.png" />
             </div>
             <div class="content-container">
               <h2 class="sub-title-font-rm-margin">
@@ -290,7 +297,7 @@
               </text>
             </div>
           </div>
-          <div class="image-content">
+          <!-- <div class="image-content">
             <div class="image-container">
               <img class="images_12" src="../assets/logo.png" />
             </div>
@@ -302,7 +309,7 @@
                 Senior Dance Advisor
               </text>
             </div>
-          </div>
+          </div> -->
         </div>
         <div>
           <h1 class="title-font long-container">
@@ -321,15 +328,18 @@
           <div class="main-container" style="justify-content: space-between;">
             <div class="image-content">
               <div class="image-container rm-image-container-margin">
-                <img class="images" src="../assets/logo.png" />
+                <img class="images-school-1" src="../assets/hanzkidz.png" />
                 <h2 class="sub-title-font rm-margin" style="color:white">
                   HANZKIDZ
                 </h2>
               </div>
               <div class="image-container rm-image-container-margin">
-                <img class="images" src="../assets/logo.png" />
+                <img
+                  class="images-school-2"
+                  src="../assets/sjkc-tai-thung.png"
+                />
                 <h2 class="sub-title-font rm-margin" style="color:white">
-                  HANZKIDZ
+                  SJK(C) TAI THUNG
                 </h2>
               </div>
             </div>
@@ -492,6 +502,58 @@ export default {
 
     window.onscroll = scrollPercentage;
     window.onload = scrollPercentage;
+
+    // var skills = document.getElementsByClassName('red')[0];
+    // var skills1 = document.getElementsByClassName('blue')[0];
+    // var skills2 = document.getElementsByClassName('yellow')[0];
+    // var skills3 = document.getElementsByClassName('orange')[0];
+
+    // var aboutus = document.getElementById('about-us');
+    // var achievement = document.getElementById('achievement');
+    // var team = document.getElementById('team');
+    // var partner = document.getElementById('partner');
+    // var review = document.getElementById('review');
+    // var contactus = document.getElementById('contact-us');
+
+    //     window.onscroll = function() {
+    //   // Get boundries of your div (top, bottom, left, right)
+    //   var position = aboutus.getBoundingClientRect();
+    //   var position2 = achievement.getBoundingClientRect();
+    //   var position3 = team.getBoundingClientRect();
+    //   var position4 = partner.getBoundingClientRect();
+    //   var position5 = review.getBoundingClientRect();
+    //   var position6 = contactus.getBoundingClientRect();
+
+    // console.log(position, position2, position3, position4, position5, position6)
+    //   // Check your divs position and add/remove your desired class
+    //    if (position1.top) {
+    //     skills.style.color = "red";
+
+    //      skills1.style.color = "white";
+    //       skills2.style.color = "white";
+    //        skills3.style.color = "white";
+    //   }
+    //   if (position1.top < -200) {
+    //     skills.style.color = "white";
+    //      skills1.style.color = "blue";
+    //       skills2.style.color = "white";
+    //        skills3.style.color = "white";
+
+    // 	}
+    //   if (position1.top < -500) {
+    //     skills.style.color = "white";
+    //      skills1.style.color = "white";
+    //       skills2.style.color = "yellow";
+    //        skills3.style.color = "white";
+    // 	}
+    //   if (position1.top < -800) {
+    //      skills.style.color = "white";
+    //      skills1.style.color = "white";
+    //       skills2.style.color = "white";
+    //        skills3.style.color = "orange";
+    // 	}
+
+    // }
   },
 };
 </script>
@@ -537,8 +599,8 @@ export default {
 }
 
 .concept-design {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-between;
   margin: 50px 150px 0 150px;
@@ -648,16 +710,26 @@ export default {
   box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
 }
 .images_7 {
-  height: 150px;
+  height: 220px;
   box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_8 {
-  height: 150px;
+  height: 200px;
   box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_9 {
-  height: 150px;
+  height: 200px;
   box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
+.images_10 {
+  height: 223px;
+  border: 5px solid transparent;
+  border-color: white;
+}
+.images_11 {
+  height: 225px;
+  border: 5px solid transparent;
+  border-color: white;
 }
 .images_13 {
   height: 500px;
@@ -666,6 +738,14 @@ export default {
 .images_14 {
   height: 300px;
   box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+}
+.images-school-1 {
+  height: 260px;
+  border-radius: 20px;
+}
+.images-school-2 {
+  height: 260px;
+  border-radius: 20px;
 }
 .hero-container {
   display: flex;
@@ -721,6 +801,9 @@ export default {
 .content-container-wrapper {
   width: 35rem;
 }
+.content-padding-right-50 {
+  padding-right: 50px;
+}
 
 .title-font {
   color: white;
@@ -740,6 +823,7 @@ export default {
   font-weight: 100;
   letter-spacing: 5px;
   font-size: 2rem;
+  width: max-content;
 }
 .font-color-white {
   color: white;
@@ -816,7 +900,13 @@ export default {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-color: #eb0488;
+  background: linear-gradient(
+    225deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(235, 0, 139, 1) 0%,
+    rgba(239, 51, 101, 1) 51%,
+    rgba(246, 146, 30, 1) 100%
+  );
   margin-right: 20px;
   margin-top: 5px;
   place-items: center;
@@ -855,6 +945,9 @@ export default {
   .content-font-small {
     font-size: 15px;
   }
+  .content-padding-right-50 {
+    padding-right: 0px;
+  }
   .sub-title-font {
     font-size: 26px;
   }
@@ -876,14 +969,33 @@ export default {
     height: 300px;
     box-shadow: 30px 40px 0 0, 30px 40px 0 2px rgb(148, 148, 148);
   }
-  .images_13 {
-    height: 350px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
-  }
+
   .images_6 {
     margin-top: 120px;
     height: 350px;
     box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
+  }
+  .images_7 {
+    height: 190px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .images_8 {
+    height: 170px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .images_9 {
+    height: 170px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .images_10 {
+    height: 178px;
+  }
+  .images_11 {
+    height: 180px;
+  }
+  .images_13 {
+    height: 350px;
+    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
   }
 }
 
@@ -910,6 +1022,9 @@ export default {
   }
   .title-font {
     font-size: 60px;
+  }
+  .sub-title-font {
+    font-size: 20px;
   }
   .long-container {
     width: 300px;
@@ -1003,6 +1118,9 @@ export default {
   }
   .review-container {
     width: auto;
+  }
+  .videos {
+    width: 300px;
   }
 }
 </style>
