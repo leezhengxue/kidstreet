@@ -129,11 +129,11 @@
             Types Of <br />
             Hip-Hop Dance
           </h1>
-          <img class="images_5" src="../assets/logo.png" />
+          <!-- <img class="images_5" src="../assets/logo.png" /> -->
 
-          <!-- <video class="videos" width="600" controls>
+          <video class="videos" width="600" controls>
             <source src="../assets/dance-video.mp4" type="video/mp4" />
-          </video> -->
+          </video>
         </div>
         <div class="content-container padding-top">
           <div class="image-content">
