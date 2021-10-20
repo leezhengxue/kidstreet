@@ -599,8 +599,8 @@ export default {
 }
 
 .concept-design {
-  /* display: none; */
-  display: flex;
+   display: none; 
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-between;
   margin: 50px 150px 0 150px;
