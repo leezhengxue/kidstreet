@@ -45,44 +45,56 @@
 
       <div class="main-container">
         <div class="content-container padding-top" id="about-us">
-          <h1 class="title-font" style="margin:20px 0 20px 0;">
+          <h1
+            class="title-font mobile-title-font"
+            style="margin:20px 0 20px 0;"
+          >
             About Us
           </h1>
-          <h2 class="sub-title-font">
+          <h2 class="sub-title-font mobile-sub-title-font">
             Background
           </h2>
-          <text class="content-font content-font-width">
+          <text class="content-font content-font-width mobile-content-font">
             Founded in 2019, KID STREET; A professional dance company that
             focuses on Academy, Performances and Entertainment in dance. KID
             STREET was fouunded by both dancers, Ker Qian and Kah Meng aspiring
             to influence the dance industry in Malaysia
           </text>
-          <h2 class="sub-title-font">
+          <div class="mobile-images-display">
+            <img class="images_2" src="../assets/about_us_1.png" />
+          </div>
+          <h2 class="sub-title-font mobile-sub-title-font">
             Business Activity
           </h2>
-          <text class="content-font content-font-width">
+          <text class="content-font content-font-width mobile-content-font">
             KID STREET has bee actively in collaborate with schools and dance
             academy since. We are looking to expand our platform for the year
             2021. We focuses on helping students in their academy by providing
             knowledgable dance and art class.
           </text>
+          <div class="mobile-images-display">
+            <img class="images_2" src="../assets/about_us_2.png" />
+          </div>
         </div>
-        <div class="image-container">
+        <div class="image-container mobile-images-hide">
           <img class="images_2" src="../assets/about_us_1.png" />
           <img class="images_2" src="../assets/about_us_2.png" />
         </div>
       </div>
 
       <div class="main-container padding-top-bottom">
-        <div class="image-container">
+        <div class="image-container mobile-images-hide">
           <img class="images_3" src="../assets/what_is_hiphop.jpg" />
         </div>
         <div class="content-container">
-          <h1 class="title-font">What is <br />Hip-Hop?</h1>
+          <h1 class="title-font mobile-title-font">What is <br />Hip-Hop?</h1>
+          <div class="mobile-images-display">
+            <img class="images_3" src="../assets/what_is_hiphop.jpg" />
+          </div>
           <h2 class="sub-title-font">
             A Brief History
           </h2>
-          <text class="content-font content-font-width">
+          <text class="content-font content-font-width mobile-content-font">
             Hip-hop now is a highly sought-after and dominant style of dance. It
             is among the most common styles of dance for music vidoes, concerts,
             and dance competitions.
@@ -92,7 +104,10 @@
 
       <div class="main-container">
         <div class="image-container padding-right-50">
-          <h1 class="title-font">Why <br />Dancing?</h1>
+          <h1 class="title-font mobile-title-font">
+            Why <br />
+            Dancing?
+          </h1>
           <img class="images_4" src="../assets/why_dance.png" />
         </div>
         <div class="content-container padding-top">
@@ -125,7 +140,7 @@
 
       <div class="main-container">
         <div class="image-container">
-          <h1 class="title-font">
+          <h1 class="title-font mobile-title-font">
             Types Of <br />
             Hip-Hop Dance
           </h1>
@@ -139,7 +154,7 @@
           <div class="image-content">
             <div class="circle"><div class="circle-number">01</div></div>
             <div class="content-container">
-              <h2 class="sub-title-font-rm-margin" style="color:white;">
+              <h2 class="sub-title-font-rm-margin special-font-color">
                 Urban Choreography
               </h2>
               <text class="content-font-small">
@@ -151,7 +166,7 @@
           <div class="image-content">
             <div class="circle"><div class="circle-number">02</div></div>
             <div class="content-container">
-              <h2 class="sub-title-font-rm-margin" style="color:white;">
+              <h2 class="sub-title-font-rm-margin special-font-color">
                 Break Dancing
               </h2>
               <text class="content-font-small">
@@ -162,7 +177,7 @@
           <div class="image-content">
             <div class="circle"><div class="circle-number">03</div></div>
             <div class="content-container">
-              <h2 class="sub-title-font-rm-margin" style="color:white;">
+              <h2 class="sub-title-font-rm-margin special-font-color">
                 Locking
               </h2>
               <text class="content-font-small">
@@ -173,7 +188,7 @@
           <div class="image-content">
             <div class="circle"><div class="circle-number">04</div></div>
             <div class="content-container">
-              <h2 class="sub-title-font-rm-margin" style="color:white;">
+              <h2 class="sub-title-font-rm-margin special-font-color">
                 Popping
               </h2>
               <text class="content-font-small">
@@ -186,9 +201,12 @@
 
       <div class="main-container">
         <div class="content-container content-container-wrapper">
-          <h1 class="title-font">
+          <h1 class="title-font mobile-title-font">
             Why Choose Us?
           </h1>
+          <div class="mobile-images-display">
+            <img class="images_6" src="../assets/why_choose_us.png" />
+          </div>
           <h2 class="sub-title-font-rm-margin">
             OUR WORK EXPERIENCE
           </h2>
@@ -214,14 +232,14 @@
             Robotic, Waving and Body Control
           </text>
         </div>
-        <div class="image-container">
+        <div class="image-container mobile-images-hide">
           <img class="images_6" src="../assets/why_choose_us.png" />
         </div>
       </div>
 
       <div class="main-container" id="achievement">
         <div>
-          <h1 class="title-font special-title-font">
+          <h1 class="title-font mobile-title-font">
             Our <br />
             Achievement
           </h1>
@@ -270,7 +288,9 @@
       </div>
 
       <div class="main-container" id="team">
-        <div class="content-container padding-top content-padding-right-50">
+        <div
+          class="content-container padding-top content-padding-right-50 mobile-order-2"
+        >
           <div class="image-content image-content-margin">
             <div class="image-container">
               <img class="images_10" src="../assets/teacher-ker-qian.png" />
@@ -312,7 +332,9 @@
           </div> -->
         </div>
         <div>
-          <h1 class="title-font long-container">
+          <h1
+            class="title-font long-container mobile-order-1 mobile-title-font"
+          >
             The Acedemy Team
           </h1>
         </div>
@@ -321,7 +343,7 @@
       <div class="main-container" id="partner">
         <div class="main-container-column padding-top" style="margin:0">
           <div>
-            <h1 class="title-font">
+            <h1 class="title-font mobile-title-font">
               Our School Partner
             </h1>
           </div>
@@ -349,7 +371,7 @@
 
       <div class="main-container">
         <div class="main-container-column">
-          <h1 class="title-font special-title-font padding-right-400">
+          <h1 class="title-font mobile-title-font padding-right-400">
             Types of Collaborations
           </h1>
           <div class="main-container main-container-rm-margin">
@@ -383,7 +405,7 @@
       <div class="main-container" id="review">
         <div class="main-container-column padding-top" style="margin:0">
           <div>
-            <h1 class="title-font">
+            <h1 class="title-font mobile-title-font">
               Parents Review
             </h1>
           </div>
@@ -426,7 +448,7 @@
           id="review"
           style="margin:0;"
         >
-          <h1 class="title-font special-title-font">
+          <h1 class="title-font mobile-title-font">
             Parents Review
           </h1>
           <div class="main-container" style="justify-content: space-between;">
@@ -461,12 +483,16 @@
       </div> -->
 
       <div class="main-container" id="contact-us">
-        <div class="image-container padding-right-50">
+        <div class="image-container padding-right-50 mobile-images-hide">
           <img class="images_14" src="../assets/thank_you.png" />
         </div>
         <div class="content-container">
-          <h1 class="title-font" style="color:#d848bd">CONTACT US</h1>
-
+          <h1 class="title-font mobile-title-font" style="color:#d848bd">
+            CONTACT US
+          </h1>
+          <div class="mobile-images-display">
+            <img class="images_14" src="../assets/thank_you.png" />
+          </div>
           <text class="content-font">
             Tel: <br />
             016-3377808 (Kah Meng)<br />
@@ -599,7 +625,7 @@ export default {
 }
 
 .concept-design {
-   display: none; 
+  display: none;
   /* display: flex; */
   flex-direction: row;
   justify-content: space-between;
@@ -780,8 +806,6 @@ export default {
 }
 .padding-top {
   padding-top: 150px;
-}
-.padding-top {
   padding-bottom: 100px;
 }
 
@@ -895,7 +919,9 @@ export default {
 .image-content-margin {
   margin-top: 50px;
 }
-
+.special-font-color {
+  color: white;
+}
 .circle {
   height: 60px;
   width: 60px;
@@ -923,6 +949,9 @@ export default {
 .review-container {
   width: 400px;
 }
+.mobile-images-display {
+  display: none;
+}
 
 @media (max-width: 1440px) {
   .progress-scroll-bar {
@@ -938,12 +967,15 @@ export default {
 
   .content-font {
     font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2rem;
   }
   .content-font-width {
     width: 400px;
   }
   .content-font-small {
     font-size: 15px;
+    line-height: 2rem;
   }
   .content-padding-right-50 {
     padding-right: 0px;
@@ -961,6 +993,11 @@ export default {
     height: 650px;
     box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
   }
+  .images_2 {
+    height: 200px;
+    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+    margin-top: 100px;
+  }
   .images_3 {
     height: 350px;
     box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
@@ -969,7 +1006,6 @@ export default {
     height: 300px;
     box-shadow: 30px 40px 0 0, 30px 40px 0 2px rgb(148, 148, 148);
   }
-
   .images_6 {
     margin-top: 120px;
     height: 350px;
@@ -1010,12 +1046,21 @@ export default {
     flex-direction: column;
     padding: 0;
   }
+  .header-logo {
+    height: 90px;
+    margin: 5px;
+  }
   .hero-container {
     flex-direction: column;
     padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .hero-font {
+    font-size: 3rem;
   }
   .content-container {
     display: block;
+    width: 300px;
   }
   .main-container {
     flex-direction: column;
@@ -1025,12 +1070,10 @@ export default {
   }
   .sub-title-font {
     font-size: 20px;
+    margin-top: 50px;
   }
   .long-container {
     width: 300px;
-  }
-  .concept-design {
-    display: none;
   }
   .image-content {
     flex-direction: column;
@@ -1040,11 +1083,19 @@ export default {
   .content-container-wrapper {
     width: 18rem;
   }
+  .mobile-content-font {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+  }
   .content-font-small {
     margin-bottom: 50px;
   }
-  .special-title-font {
-    font-size: 32px;
+  .mobile-title-font {
+    font-size: 38px;
+  }
+  .sub-title-font-rm-margin {
+    font-size: 24px;
+    margin-top: 30px;
   }
   .rm-margin {
     margin: 0;
@@ -1070,57 +1121,102 @@ export default {
   }
   .images_1 {
     height: 350px;
-    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_2 {
     height: 160px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
     margin-top: 20px;
   }
   .images_3 {
-    height: 200px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    height: 220px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_4 {
     height: 170px;
-    box-shadow: 5px 5px 0 0, 5px 5px 0 1px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .padding-right-50 {
     padding-right: 0px;
   }
   .images_6 {
     margin-top: 0;
+    margin-bottom: 40px;
     height: 190px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_7 {
-    margin-bottom: 40px;
-    height: 190px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    height: 210px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_8 {
-    margin-bottom: 40px;
     height: 190px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_9 {
-    margin-bottom: 40px;
     height: 190px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .images_13 {
-    height: 220px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+    height: 210px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
+    margin-top: 30px;
   }
   .images_14 {
-    height: 170px;
-    box-shadow: 5px 5px 0 0, 5px 5px 0 1px rgb(148, 148, 148);
+    height: 160px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
+    box-shadow: none;
   }
   .review-container {
     width: auto;
   }
   .videos {
     width: 300px;
+  }
+  .mobile-images-display {
+    display: block;
+  }
+  .mobile-images-hide {
+    display: none;
+  }
+  .mobile-order-1 {
+    order: 1;
+  }
+  .mobile-order-2 {
+    order: 2;
+  }
+  .special-font-color {
+    color: #f6921e;
+  }
+}
+@media (max-width: 768px) {
+  .concept-design {
+    display: none;
+  }
+  .images-school-1 {
+    height: 200px;
+  }
+  .images-school-2 {
+    height: 200px;
   }
 }
 </style>
