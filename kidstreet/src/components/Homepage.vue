@@ -351,7 +351,7 @@
             <div class="image-content">
               <div class="image-container rm-image-container-margin">
                 <img class="images-school-1" src="../assets/hanzkidz.png" />
-                <h2 class="sub-title-font rm-margin" style="color:white">
+                <h2 class="sub-title-font images-text" style="color:white">
                   HANZKIDZ
                 </h2>
               </div>
@@ -360,7 +360,7 @@
                   class="images-school-2"
                   src="../assets/sjkc-tai-thung.png"
                 />
-                <h2 class="sub-title-font rm-margin" style="color:white">
+                <h2 class="sub-title-font images-text" style="color:white">
                   SJK(C) TAI THUNG
                 </h2>
               </div>
@@ -409,10 +409,77 @@
               Parents Review
             </h1>
           </div>
+          <div class="main-container">
+            <div class="image-content">
+              <div class="review-container">
+                <!-- <img class="images" src="../assets/logo.png" /> -->
+                <div class="review-wrapper">
+                  <text class="content-font-small" style="color:black;">
+                    Self discipline did improve. Last time he can only focus for
+                    less than 25 minuties. Now he seems better.
+                  </text>
+
+                  <h2
+                    class="content-font rm-margin"
+                    style=" color:black; text-align:left"
+                  >
+                    - KEITH MOK'S PARENTS
+                  </h2>
+                </div>
+              </div>
+              <div class="review-container ">
+                <!-- <img class="images" src="../assets/logo.png" /> -->
+                <div class="review-wrapper">
+                  <text class="content-font-small" style="color:black;">
+                    Her mind set is more positive and self confident has
+                    improved significantly.
+                  </text>
+
+                  <h2
+                    class="content-font rm-margin"
+                    style="color:black; text-align:left;"
+                  >
+                    - SHEELA LEE'S PARENTS
+                  </h2>
+                </div>
+              </div>
+              <div class="review-container">
+                <!-- <img class="images" src="../assets/logo.png" /> -->
+                <div class="review-wrapper">
+                  <text class="content-font-small" style="color:black;">
+                    She is happy when dancing, musically and memorizing skill
+                    has become better.
+                  </text>
+
+                  <h2
+                    class="content-font rm-margin"
+                    style="color:black; text-align:left;"
+                  >
+                    - XIN LYNN'S PARENTS
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="main-container mobile-padding-top-120" id="review">
+        <div class="main-container-column padding-top" style="margin:0">
+          <div>
+            <h1 class="title-font mobile-title-font">
+              Parents Review
+            </h1>
+          </div>
           <div class="main-container" style="justify-content: space-between;">
             <div class="image-content">
               <div class="image-container rm-image-container-margin">
                 <img class="images" src="../assets/logo.png" />
+                <div>
+                  <text class="content-font-small">
+                    Self discipline did improve. Last time he can only focus for
+                    less than 25 minuties. Now he seems better.
+                  </text>
+                </div>
                 <h2
                   class="content-font rm-margin"
                   style="color:white; text-align:left"
@@ -422,6 +489,12 @@
               </div>
               <div class="image-container rm-image-container-margin">
                 <img class="images" src="../assets/logo.png" />
+                <div>
+                  <text class="content-font-small">
+                    Her mind set is more positive and self confident has
+                    improved.
+                  </text>
+                </div>
                 <h2
                   class="content-font rm-margin"
                   style="color:white; text-align:left;"
@@ -431,6 +504,12 @@
               </div>
               <div class="image-container rm-image-container-margin">
                 <img class="images" src="../assets/logo.png" />
+                <div>
+                  <text class="content-font-small">
+                    She is happy when dancing, musically and memorizing skill
+                    has become better.
+                  </text>
+                </div>
                 <h2
                   class="content-font rm-margin"
                   style="color:white; text-align:left;"
@@ -441,7 +520,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="main-container">
         <div
           class="main-container-column padding-top padding-bottom"
@@ -962,6 +1041,15 @@ export default {
 }
 .review-container {
   width: 400px;
+  height: auto;
+  background: #f5c58f;
+  border-radius: 20px;
+  margin: 10px;
+}
+.review-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 .mobile-images-display {
   display: none;
@@ -1207,6 +1295,9 @@ export default {
     border: 5px solid transparent;
     border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
     box-shadow: none;
+  }
+  .images-text {
+    margin: 20px 0 50px 0;
   }
   .review-container {
     width: auto;
