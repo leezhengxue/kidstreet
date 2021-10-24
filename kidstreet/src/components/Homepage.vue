@@ -9,7 +9,7 @@
         </div>
         <div class="nav-bar nav-bar-mobile" id="navigation">
           <ul>
-            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#about-us" class="about-us">ABOUT US</a></li>
             <li><a href="#achievement">ACHIEVEMENT</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#partner">PARTNER</a></li>
@@ -447,8 +447,8 @@
                 <!-- <img class="images" src="../assets/logo.png" /> -->
                 <div class="review-wrapper">
                   <text class="content-font-small" style="color:black;">
-                    She is happy when dancing, musically and memorizing skill
-                    has become better.
+                    She is cheerful when dancing,at the same time musicality and
+                    memorizing skill has become better.
                   </text>
 
                   <h2
@@ -624,14 +624,14 @@ export default {
     // var skills2 = document.getElementsByClassName('yellow')[0];
     // var skills3 = document.getElementsByClassName('orange')[0];
 
-    // var aboutus = document.getElementById('about-us');
-    // var achievement = document.getElementById('achievement');
-    // var team = document.getElementById('team');
-    // var partner = document.getElementById('partner');
-    // var review = document.getElementById('review');
-    // var contactus = document.getElementById('contact-us');
+    // var aboutus = document.getElementById("about-us");
+    // var achievement = document.getElementById("achievement");
+    // var team = document.getElementById("team");
+    // var partner = document.getElementById("partner");
+    // var review = document.getElementById("review");
+    // var contactus = document.getElementById("contact-us");
 
-    //     window.onscroll = function() {
+    // window.onscroll = function() {
     //   // Get boundries of your div (top, bottom, left, right)
     //   var position = aboutus.getBoundingClientRect();
     //   var position2 = achievement.getBoundingClientRect();
@@ -718,8 +718,8 @@ export default {
 }
 
 .concept-design {
-  display: none;
-  /* display: flex; */
+  /* display: none; */
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 50px 150px 0 150px;
@@ -805,20 +805,20 @@ export default {
 
 .images_1 {
   height: 750px;
-  box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+  box-shadow: 20px 20px 0 0 #181818, 20px 20px 0 2px rgb(148, 148, 148);
 }
 .images_2 {
   height: 250px;
-  box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+  box-shadow: 20px 20px 0 0 #181818, 20px 20px 0 2px rgb(148, 148, 148);
   margin-top: 150px;
 }
 .images_3 {
   height: 500px;
-  box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+  box-shadow: 20px 20px 0 0 #181818, 20px 20px 0 2px rgb(148, 148, 148);
 }
 .images_4 {
   height: 370px;
-  box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
+  box-shadow: 40px 60px 0 0 #181818, 40px 60px 0 2px rgb(148, 148, 148);
 }
 .padding-right-50 {
   padding-right: 50px;
@@ -826,19 +826,19 @@ export default {
 .images_6 {
   margin-top: 120px;
   height: 450px;
-  box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
+  box-shadow: 40px 60px 0 0 #181818, 40px 60px 0 2px rgb(148, 148, 148);
 }
 .images_7 {
   height: 220px;
-  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_8 {
   height: 200px;
-  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_9 {
   height: 200px;
-  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_10 {
   height: 223px;
@@ -852,11 +852,11 @@ export default {
 }
 .images_13 {
   height: 500px;
-  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images_14 {
   height: 300px;
-  box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+  box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
 }
 .images-school-1 {
   height: 260px;
@@ -1093,37 +1093,37 @@ export default {
   }
   .images_1 {
     height: 650px;
-    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+    box-shadow: 20px 20px 0 0 #181818, 20px 20px 0 2px rgb(148, 148, 148);
   }
   .images_2 {
     height: 200px;
-    box-shadow: 20px 20px 0 0, 20px 20px 0 2px rgb(148, 148, 148);
+    box-shadow: 20px 20px 0 0 #181818, 20px 20px 0 2px rgb(148, 148, 148);
     margin-top: 100px;
   }
   .images_3 {
     height: 350px;
-    box-shadow: 10px 10px 0 0, 10px 10px 0 1px rgb(148, 148, 148);
+    box-shadow: 10px 10px 0 0 #181818, 10px 10px 0 1px rgb(148, 148, 148);
   }
   .images_4 {
     height: 300px;
-    box-shadow: 30px 40px 0 0, 30px 40px 0 2px rgb(148, 148, 148);
+    box-shadow: 30px 40px 0 0 #181818, 30px 40px 0 2px rgb(148, 148, 148);
   }
   .images_6 {
     margin-top: 120px;
     height: 350px;
-    box-shadow: 40px 60px 0 0, 40px 60px 0 2px rgb(148, 148, 148);
+    box-shadow: 40px 60px 0 0 #181818, 40px 60px 0 2px rgb(148, 148, 148);
   }
   .images_7 {
     height: 190px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+    box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
   }
   .images_8 {
     height: 170px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+    box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
   }
   .images_9 {
     height: 170px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+    box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
   }
   .images_10 {
     height: 178px;
@@ -1133,7 +1133,10 @@ export default {
   }
   .images_13 {
     height: 350px;
-    box-shadow: 15px 15px 0 0, 15px 15px 0 2px rgb(148, 148, 148);
+    box-shadow: 15px 15px 0 0 #181818, 15px 15px 0 2px rgb(148, 148, 148);
+  }
+  .review-container {
+    width: 300px;
   }
 }
 
@@ -1299,9 +1302,7 @@ export default {
   .images-text {
     margin: 20px 0 50px 0;
   }
-  .review-container {
-    width: auto;
-  }
+
   .videos {
     width: 300px;
   }
