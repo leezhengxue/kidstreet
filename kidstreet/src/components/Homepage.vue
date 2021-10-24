@@ -1,13 +1,13 @@
 <template>
   <div style="background-color:#181818">
     <div class="header">
-      <div class="header-container">
+      <div class="header-container" @click.self="showmenu()">
         <div class="image-container">
           <a href="#home"
             ><img class="header-logo" src="../assets/kidstreet-logo.png"
           /></a>
         </div>
-        <div class="nav-bar">
+        <div class="nav-bar nav-bar-mobile" id="navigation">
           <ul>
             <li><a href="#about-us">ABOUT US</a></li>
             <li><a href="#achievement">ACHIEVEMENT</a></li>
@@ -46,7 +46,7 @@
       <div class="main-container">
         <div class="content-container padding-top" id="about-us">
           <h1
-            class="title-font mobile-title-font"
+            class="title-font mobile-title-font mobile-padding-top-120"
             style="margin:20px 0 20px 0;"
           >
             About Us
@@ -237,7 +237,7 @@
         </div>
       </div>
 
-      <div class="main-container" id="achievement">
+      <div class="main-container mobile-padding-top-120" id="achievement">
         <div>
           <h1 class="title-font mobile-title-font">
             Our <br />
@@ -287,7 +287,7 @@
         </div>
       </div>
 
-      <div class="main-container" id="team">
+      <div class="main-container mobile-padding-top-120" id="team">
         <div
           class="content-container padding-top content-padding-right-50 mobile-order-2"
         >
@@ -340,7 +340,7 @@
         </div>
       </div>
 
-      <div class="main-container" id="partner">
+      <div class="main-container mobile-padding-top-120" id="partner">
         <div class="main-container-column padding-top" style="margin:0">
           <div>
             <h1 class="title-font mobile-title-font">
@@ -402,7 +402,7 @@
         </div>
       </div>
 
-      <div class="main-container" id="review">
+      <div class="main-container mobile-padding-top-120" id="review">
         <div class="main-container-column padding-top" style="margin:0">
           <div>
             <h1 class="title-font mobile-title-font">
@@ -482,7 +482,7 @@
         </div>
       </div> -->
 
-      <div class="main-container" id="contact-us">
+      <div class="main-container mobile-padding-top-120" id="contact-us">
         <div class="image-container padding-right-50 mobile-images-hide">
           <img class="images_14" src="../assets/thank_you.png" />
         </div>
@@ -511,6 +511,17 @@
 export default {
   name: "Homepage",
   setup() {
+    // if (window.width > 1024) {
+
+    // }
+    function showmenu() {
+      var navigation = document.getElementById("navigation");
+      if (navigation.style.display === "block") {
+        navigation.style.display = "none";
+      } else {
+        navigation.style.display = "block";
+      }
+    }
     let scrollPercentage = () => {
       let scrollProgress = document.getElementById("circle");
       let progressValue = document.getElementById("circle-value");
@@ -580,6 +591,9 @@ export default {
     // 	}
 
     // }
+    return {
+      showmenu,
+    };
   },
 };
 </script>
@@ -611,7 +625,7 @@ export default {
 .nav-bar ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 35px 20px;
   position: relative;
 }
 .nav-bar ul li a {
@@ -1038,6 +1052,14 @@ export default {
 @media (max-width: 1024px) {
   .nav-bar {
     display: none;
+    margin: 0;
+  }
+  .nav-bar ul li {
+    padding: 15px 20px;
+  }
+  .nav-bar-mobile ul li {
+    display: flex;
+    flex-direction: column;
   }
   .header-font {
     display: none;
@@ -1174,7 +1196,7 @@ export default {
     box-shadow: none;
   }
   .images_13 {
-    height: 210px;
+    height: 300px;
     border: 5px solid transparent;
     border-image: linear-gradient(45deg, rgb(235, 0, 139), rgb(246, 146, 30)) 1;
     box-shadow: none;
@@ -1207,6 +1229,9 @@ export default {
   .special-font-color {
     color: #f6921e;
   }
+  .mobile-padding-top-120 {
+    padding-top: 120px;
+  }
 }
 @media (max-width: 768px) {
   .concept-design {
@@ -1217,6 +1242,9 @@ export default {
   }
   .images-school-2 {
     height: 200px;
+  }
+  .images_13 {
+    height: 210px;
   }
 }
 </style>
