@@ -9,7 +9,7 @@
         </div>
         <div class="nav-bar nav-bar-mobile" id="navigation">
           <ul>
-            <li><a href="#about-us" class="about-us">ABOUT US</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
             <li><a href="#achievement">ACHIEVEMENT</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#partner">PARTNER</a></li>
@@ -144,8 +144,6 @@
             Types Of <br />
             Hip-Hop Dance
           </h1>
-          <!-- <img class="images_5" src="../assets/logo.png" /> -->
-
           <video class="videos" width="600" controls>
             <source src="../assets/dance-video.mp4" type="video/mp4" />
           </video>
@@ -317,19 +315,6 @@
               </text>
             </div>
           </div>
-          <!-- <div class="image-content">
-            <div class="image-container">
-              <img class="images_12" src="../assets/logo.png" />
-            </div>
-            <div class="content-container">
-              <h2 class="sub-title-font-rm-margin">
-                TEACHER MC
-              </h2>
-              <text class="content-font-small">
-                Senior Dance Advisor
-              </text>
-            </div>
-          </div> -->
         </div>
         <div>
           <h1
@@ -412,7 +397,6 @@
           <div class="main-container">
             <div class="image-content">
               <div class="review-container">
-                <!-- <img class="images" src="../assets/logo.png" /> -->
                 <div class="review-wrapper">
                   <text class="content-font-small" style="color:black;">
                     Self discipline did improve. Last time he can only focus for
@@ -428,7 +412,6 @@
                 </div>
               </div>
               <div class="review-container ">
-                <!-- <img class="images" src="../assets/logo.png" /> -->
                 <div class="review-wrapper">
                   <text class="content-font-small" style="color:black;">
                     Her mind set is more positive and self confident has
@@ -444,7 +427,6 @@
                 </div>
               </div>
               <div class="review-container">
-                <!-- <img class="images" src="../assets/logo.png" /> -->
                 <div class="review-wrapper">
                   <text class="content-font-small" style="color:black;">
                     She is cheerful when dancing,at the same time musicality and
@@ -463,103 +445,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="main-container mobile-padding-top-120" id="review">
-        <div class="main-container-column padding-top" style="margin:0">
-          <div>
-            <h1 class="title-font mobile-title-font">
-              Parents Review
-            </h1>
-          </div>
-          <div class="main-container" style="justify-content: space-between;">
-            <div class="image-content">
-              <div class="image-container rm-image-container-margin">
-                <img class="images" src="../assets/logo.png" />
-                <div>
-                  <text class="content-font-small">
-                    Self discipline did improve. Last time he can only focus for
-                    less than 25 minuties. Now he seems better.
-                  </text>
-                </div>
-                <h2
-                  class="content-font rm-margin"
-                  style="color:white; text-align:left"
-                >
-                  - KEITH MOK'S PARENTS
-                </h2>
-              </div>
-              <div class="image-container rm-image-container-margin">
-                <img class="images" src="../assets/logo.png" />
-                <div>
-                  <text class="content-font-small">
-                    Her mind set is more positive and self confident has
-                    improved.
-                  </text>
-                </div>
-                <h2
-                  class="content-font rm-margin"
-                  style="color:white; text-align:left;"
-                >
-                  - SHEELA LEE'S PARENTS
-                </h2>
-              </div>
-              <div class="image-container rm-image-container-margin">
-                <img class="images" src="../assets/logo.png" />
-                <div>
-                  <text class="content-font-small">
-                    She is happy when dancing, musically and memorizing skill
-                    has become better.
-                  </text>
-                </div>
-                <h2
-                  class="content-font rm-margin"
-                  style="color:white; text-align:left;"
-                >
-                  - XIN LYNN'S PARENTS
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="main-container">
-        <div
-          class="main-container-column padding-top padding-bottom"
-          id="review"
-          style="margin:0;"
-        >
-          <h1 class="title-font mobile-title-font">
-            Parents Review
-          </h1>
-          <div class="main-container" style="justify-content: space-between;">
-            <div class="image-content">
-              <div
-                class="image-container rm-image-container-margin review-container"
-              >
-                <img class="images" src="../assets/logo.png" />
-                <h2 class="content-font rm-margin" style="color:white">
-                  - KEITH MOK'S PARENTS
-                </h2>
-              </div>
-              <div
-                class="image-container rm-image-container-margin review-container"
-              >
-                <img class="images" src="../assets/logo.png" />
-                <h2 class="content-font rm-margin" style="color:white">
-                  - SHEELA LEE'S PARENTS
-                </h2>
-              </div>
-              <div
-                class="image-container rm-image-container-margin review-container"
-              >
-                <img class="images" src="../assets/logo.png" />
-                <h2 class="content-font rm-margin" style="color:white">
-                  - XIN LYNN'S PARENTS
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
       <div class="main-container mobile-padding-top-120" id="contact-us">
         <div class="image-container padding-right-50 mobile-images-hide">
@@ -677,7 +562,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header {
   position: fixed;
@@ -740,7 +624,6 @@ export default {
   font-size: 20px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  /* text-orientation: mixed; */
 }
 .right-border-line {
   height: calc(100vh - 500px);
@@ -753,7 +636,6 @@ export default {
   font-weight: 100;
   font-size: 20px;
   writing-mode: vertical-rl;
-  /* text-orientation: mixed; */
   margin-left: 15px;
 }
 
@@ -985,20 +867,6 @@ export default {
   margin-right: 2rem;
   align-items: center;
 }
-/* .image-wrapper::before {
-  position: absolute;
-  top: -5%;
-  left: -15%;
-  width: 100%;
-  height: 100%;
-  border: 4px solid #ffffff;
-  content: "";
-} */
-.image-wrapper {
-  display: inline-block;
-  position: relative;
-}
-/* remove image-wrapper so that it wont overlap header */
 
 .long-container {
   width: 400px;
@@ -1198,7 +1066,7 @@ export default {
   }
   .mobile-content-font {
     letter-spacing: 1.5px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .content-font-small {
     margin-bottom: 50px;
